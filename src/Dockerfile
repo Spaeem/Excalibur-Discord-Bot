@@ -5,6 +5,6 @@ WORKDIR /
 
 COPY . .
 
-RUN go build main.go
+RUN go build Excalibur
 
 CMD [ "npm run start" ]
