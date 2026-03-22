@@ -1,3 +1,4 @@
+# For deployment on railway.app
 FROM golang:latest
 
 WORKDIR /
