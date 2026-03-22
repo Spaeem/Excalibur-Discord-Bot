@@ -5,6 +5,6 @@ WORKDIR /
 
 COPY . .
 
-RUN go build Excalibur
+RUN go build Excalibur-Discord-Bot
 
 CMD [ "./Excalibur" ]
