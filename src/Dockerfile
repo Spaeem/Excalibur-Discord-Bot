@@ -7,4 +7,4 @@ COPY . .
 
 RUN go build Excalibur-Discord-Bot
 
-CMD [ "./Excalibur" ]
+CMD [ "npm run start" ]
