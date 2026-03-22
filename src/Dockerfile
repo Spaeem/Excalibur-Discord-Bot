@@ -5,6 +5,6 @@ WORKDIR /
 
 COPY . .
 
-RUN go build
+RUN go build go.mod
 
 CMD [ "npm run start" ]
