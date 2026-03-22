@@ -5,6 +5,6 @@ WORKDIR /
 
 COPY . .
 
-RUN go build Excalibur-Discord-Bot
+RUN go build src
 
 CMD [ "npm run start" ]
